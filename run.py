@@ -1,7 +1,6 @@
 import gym
 import scipy.optimize
 import numpy as np
-import IPython
 from controller import LQController
 
 """
@@ -137,7 +136,7 @@ if __name__ == '__main__':
         x_array = np.array(x_hat_array)
         u_array = np.array(u_hat_array)
 
-        print "cost:", cost
+        print ("cost:", cost)
 
 
 
